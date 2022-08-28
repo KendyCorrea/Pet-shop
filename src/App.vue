@@ -1,7 +1,11 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+     <router-link to="/">ANIMAUX ACCEPTE</router-link> |
+    <router-link to="/Servicios">Servicios</router-link> |
+    <router-link to="/Tipo de mascota">Tipo de mascota</router-link> |
+     <router-link to="/QUINES SOMOS">QUINES SOMOS</router-link> |
+      <router-link to="/CONTACTOS">CONTACTOS</router-link> |
+
   </nav>
   <router-view/>
 </template>
@@ -25,6 +29,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: black;
 }
 </style>
