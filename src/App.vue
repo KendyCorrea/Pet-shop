@@ -16,7 +16,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+
+            color: #2ea109;
+            text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
+                2px -2px 0 rgba(255, 255, 255, 0.9);
 }
 
 nav {
@@ -25,10 +28,17 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #2ea109;;
 }
 
 nav a.router-link-exact-active {
-  color: black;
+  color: #2ea109;;
+}
+
+button{
+       color: #2ea109;
+            text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
+                2px -2px 0 rgba(255, 255, 255, 0.9);
+                height: 50px;
 }
 </style>
