@@ -1,9 +1,9 @@
 <template>
   <nav>
      <router-link to="/">ANIMAUX ACCEPTE</router-link> |
-    <router-link to="/Servicios">Servicios</router-link> |
-    <router-link to="/Tipo de mascota">Tipo de mascota</router-link> |
-     <router-link to="/QUINES SOMOS">QUINES SOMOS</router-link> |
+    <router-link to="/Servicios">SERVICIOS</router-link> |
+    <router-link to="/Tipo">TIPO DE MASCOTAS</router-link> |
+     <router-link to="/Somos">QUINES SOMOS</router-link> |
       <router-link to="/CONTACTOS">CONTACTOS</router-link> |
 
   </nav>
@@ -40,5 +40,8 @@ button{
             text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
                 2px -2px 0 rgba(255, 255, 255, 0.9);
                 height: 50px;
+}
+*{
+  margin: 15px;
 }
 </style>
